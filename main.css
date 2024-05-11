@@ -297,7 +297,7 @@ nav {
     width: 97.2%;
     max-width: 1600px;
     height: 135px;
-    border-bottom: 15px double #FF2700;
+    border-bottom: 10px double #FF2700;
     text-align: center;
 }
 
@@ -724,7 +724,7 @@ img {
         margin-top: 17px;
         width: 97%;
         height: 110px;
-        border-bottom: 15px double #FF2700;
+        border-bottom: 8px double #FF2700;
     }
     
     .navicon {
@@ -786,7 +786,7 @@ img {
         margin: 11px auto;
         padding: 10px 12px;
         height: 95px;
-        border-bottom: 10px double #FF2700;
+        border-bottom: 5px double #FF2700;
     }
     
     h4 {
