@@ -83,7 +83,7 @@ html {
     margin: 50px auto;
     padding: 50px;
     border-radius: 15px;
-    background: url(SkylineSLIDE.png);
+    background: url(SlideBackground.jpeg);
     background-size: 100% 120%;
     border: #807e31 double 5px;
     max-width: 100%;
@@ -250,7 +250,7 @@ p {
     z-index: 1;
     top: 0;
     right: 0;
-    background: url(SLIDENAV2.png);
+    background: url(SlideBackground.jpeg);
     background-repeat: repeat;
     background-size: 100% 100%;
     overflow-x: hidden;
