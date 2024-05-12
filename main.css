@@ -847,14 +847,14 @@ img {
     }
     #map {
         width: 286px;
-        height: 108px;
+        height: 148px;
         margin: 50px auto;
         border: 4px double #FF2700;
         border-radius: 12px;
     }
     iframe {
         width: 278px;
-        height: 100px;
+        height: 140px;
         border-radius: 8px;
     }
     #stage {
