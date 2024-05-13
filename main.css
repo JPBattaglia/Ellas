@@ -93,7 +93,7 @@ html {
 }
 
 .animated {
-    background: url(Embers.jpg!sw800);
+    background: url(EmbersGif.gif);
     background-size: 100% 100%;
     background-position: left top;
     margin-bottom: 30px;
@@ -148,7 +148,8 @@ h3:hover {
 
 h1 {
     color: #fff;
-    background: #000;
+    background: url(H1Background.jpg);
+    background-position: top;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     font-family: 'Kanit';
@@ -770,7 +771,7 @@ img {
     }
     
     .animated {
-        background: url(Embers.jpg!sw800);
+        background: url(EmbersGif.gif);
         background-size: cover;
         background-position: center top;
     }
