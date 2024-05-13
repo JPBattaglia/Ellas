@@ -521,6 +521,7 @@ img {
     }
     
     h1 {
+        font-family: 'Redressed';
         font-size: 25px;
         max-width: 100%;
         padding: 0 0 2px 0;
@@ -863,6 +864,7 @@ img {
         max-width: 315px;
     }
     h1 {
+        font-family: 'Redressed';
         line-height: 22px;
         letter-spacing: -.5px;
         font-size: 15px;
@@ -1111,41 +1113,6 @@ img {
     }
 }
 
-
-/*=======================================*/
-
-
-/*=======================================*/
-
-@media (max-width: 1200px) and (min-width: 1000px) {
-    #stage {
-        max-width: 1000px;
-        margin: 18px 0;
-    }
-    h1 {
-        border: 10px double gray;
-        font-size: 40px;
-    }
-    #stage img {
-        max-width: 900px;
-        height: 600px;
-        margin: auto;
-    }
-    #intro {
-        max-width: 900px;
-        height: 600px;
-    }
-    #intro img {
-        margin: 50px auto;
-        border: 8px double gray;
-        height: 500px;
-    }
-    .close {
-        right: 240px;
-    }
-}
-
-
 /*=======================================*/
 
 
@@ -1183,14 +1150,15 @@ img {
     }
 
     .desktop a:hover{
-        text-shadow: 1px 1px 0px red, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
+        text-shadow: 2px 2px 2px #FF2700, -2px -2px 2px #FF2700, -2px 2px 2px #FF2700, 2px -2px 2px #FF2700;
         box-shadow: 2px 6px 10px #FF2700,
             -2px -6px 10px #FF2700;
-        color: #Ff0;
+        color: #fff;
         text-decoration: none;
         transition: 1s;
         background: #222;
         border: 1px solid #f00;
+        font-weight: bolder;
     }
     
     #rotate,
@@ -1219,7 +1187,7 @@ img {
     #stage {
         margin: 18px 0;
     }
-    
+
     #hours {
         flex: 3;
         text-align: center;
@@ -1254,6 +1222,7 @@ img {
         font-family: 'Redressed';
         font-size: 38px;
         border: 10px double gray;
+        margin-top: 35px; 
     }
     
     p {
@@ -1420,3 +1389,45 @@ img {
         color: #fff;
     }
 }
+
+/*=======================================*/
+
+
+/*=======================================*/
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+    
+    .desktop a{
+        margin: 10px;
+    }
+    
+    #stage {
+        max-width: 1000px;
+        margin: 18px 0;
+    }
+    
+    h1 {
+        font-family: 'Redressed';
+        border: 10px double gray;
+        font-size: 32px;
+    }
+    
+    #stage img {
+        max-width: 900px;
+        height: 600px;
+        margin: auto;
+    }
+    #intro {
+        max-width: 900px;
+        height: 600px;
+    }
+    #intro img {
+        margin: 50px auto;
+        border: 8px double gray;
+        height: 500px;
+    }
+    .close {
+        right: 240px;
+    }
+}
+
