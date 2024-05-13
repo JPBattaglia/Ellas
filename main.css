@@ -578,61 +578,61 @@ img {
     textarea,
     input {
         font-family: 'federant', serif;
-        color: red;
+        color: white;
         text-align: center;
         font-size: 18px;
         font-weight: bolder;
         max-width: 500px;
-        background-color: #f5f5f0;
+        background-color: #000;
     }
     
     #message {
         height: 200px;
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
     }
     
     select {
         font-family: 'federant', serif;
-        color: #f00;
+        color: white;
         text-align: center;
         font-size: 18px;
         font-weight: bolder;
         padding: 10px 25px;
         max-width: 30%;
         box-sizing: border-box;
-        background-color: antiquewhite;
+        background-color: #1a1a19;
     }
     
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #c00;
+        color: white;
         opacity: .7;
         /* Firefox */
     }
     
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        color: red;
+        color: white;
     }
     
      ::-ms-input-placeholder {
         /* Microsoft Edge */
-        color: red;
+        color: white;
     }
     
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
     select,
     textarea {
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
         margin: auto;
-        box-shadow: 2px 4px 10px #ff2700;
+        box-shadow: 2px 2px 10px #ff2700;
         text-align: center;
         width: 65%;
         /* Full width */
         padding: 8px;
         /* Some padding */
-        border: 1px solid #ff2700;
+        border: 1px solid gray;
         /* Gray border */
         border-radius: 17px;
         /* Rounded borders */
@@ -985,23 +985,23 @@ img {
     select {
         padding: 0px;
         font-family: 'federant', serif;
-        color: red;
+        color: white;
         text-align: center;
         font-size: 18px;
         font-weight: bolder;
         max-width: 50%;
         box-sizing: border-box;
-        background-color: antiquewhite;
+        background-color: #1a1a19;
     }
     #message {
         height: 100px;
     }
     #fname {
-        margin-top: 5px;
+        margin-top: 55px;
     }
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #b00;
+        color: white;
         opacity: .5;
         /* Firefox */
         font-family: 'federant';
@@ -1009,27 +1009,27 @@ img {
     }
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        color: red;
+        color: white;
     }
      ::-ms-input-placeholder {
         /* Microsoft Edge */
-        color: red;
+        color: white;
     }
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
     select,
     textarea {
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
         margin: auto;
         font-family: 'federant';
         font-size: 18px;
-        color: #b00;
-        box-shadow: 2px 4px 10px #FF2700;
+        color: white;
+        box-shadow: 2px 2px 5px #FF2700;
         text-align: center;
         width: 80%;
         padding: 5px;
         /* Some padding */
-        border: .5px solid red;
+        border: .5px solid gray;
         /* Gray border */
         border-radius: 15px;
         /* Rounded borders */
@@ -1283,56 +1283,56 @@ img {
     textarea,
     input {
         font-family: 'federant', serif;
-        color: red;
+        color: white;
         text-align: center;
         font-size: 18px;
         font-weight: bolder;
         max-width: 450px;
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
     }
     select {
         font-family: 'federant', serif;
-        color: #b00;
+        color: white;
         text-align: center;
         font-size: 18px;
         font-weight: bolder;
         max-width: 30%;
         box-sizing: border-box;
-        background-color: antiquewhite;
+        background-color: #1a1a19;
     }
     
     #message {
         height: 200px;
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
     }
      ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #b00;
+        color: white;
         opacity: .5;
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
         /* Firefox */
     }
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        color: red;
+        color: white;
     }
      ::-ms-input-placeholder {
         /* Microsoft Edge */
-        color: red;
+        color: white;
     }
     /* Style inputs with type="text", select elements and textareas */
     input[type=text],
     select,
     textarea {
-        background-color: #f5f5f0;
+        background-color: #1a1a19;
         margin: auto;
         text-align: center;
-        box-shadow: 2px 4px 10px #FF2700;
+        box-shadow: 2px 2px 10px #FF2700;
         width: 90%;
         /* Full width */
-        padding: 8px;
+        padding:8px;
         /* Some padding */
-        border: .5px solid #F00;
+        border: .5px solid gray;
         /* Gray border */
         border-radius: 17px;
         /* Rounded borders */
