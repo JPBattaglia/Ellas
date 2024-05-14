@@ -336,7 +336,7 @@ nav p {
 
 .logo {
     width: 140px;
-    margin: -5px 0 12px 40px;
+    margin: 2px 0 12px 40px;
     -webkit-transition: width 2s, height 2s, -webkit-transform 1.5s;
     /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
@@ -1096,7 +1096,7 @@ img {
         z-index: 999999;
         float: right;
         font-size: 20px;
-        margin: 40px;
+        margin: 50px;
     }
 
     
