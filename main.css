@@ -83,7 +83,7 @@ html {
     margin: 50px auto;
     padding: 50px;
     border-radius: 15px;
-    background: url(EllaSlideBW.jpeg);
+    background: url(BlackWood.png);
     background-size: 100% 120%;
     border: #FF2700 double 5px;
     max-width: 100%;
@@ -148,13 +148,13 @@ h3:hover {
 
 h1 {
     color: #fff;
-    background: url(H1Background.jpg);
+    background: url(BurnedWood.avif);
     background-position: top;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
     font-family: 'Kanit';
     text-align: center;
     font-weight: bolder;
+    border-top: 1px solid gray;
+    padding: 20px 0;
 }
 
 h2 {
@@ -357,9 +357,9 @@ img {
 }
 
 #stage {
+    width: 100%;
     position: absolute;
     margin: auto;
-    max-width: 1100px;
     z-index: -1;
 }
 
@@ -388,13 +388,13 @@ img {
 }
 
 #intro {
-    max-width: 1050px;
+    width: 100%;
     height: 650px;
     margin: auto;
 }
 
 #intro img {
-    width: 1050px;
+    width: 100%;
     height: 580px;
     margin: auto;
     position: absolute;
@@ -414,7 +414,7 @@ img {
     display: flex;
     max-width: 100%;
     margin: auto;
-    border: 5px double #FF2700;
+    border: 8px double gray;
     border-radius: 4px;
 }
 
@@ -512,13 +512,14 @@ img {
     }
     
     #stage {
+        width: 100%;
         max-height: 200px;
     }
     
     #intro {
         margin: 50px auto;
         height: 450px;
-        max-width: 700px;
+        width: 100%;
     }
     
     h1 {
@@ -526,7 +527,7 @@ img {
         font-size: 25px;
         max-width: 100%;
         padding: 0 0 2px 0;
-        border: 6px double gray;
+        margin-top: -50px;
     }
     
     h4 {
@@ -539,6 +540,10 @@ img {
         border-radius: 20px;
     }
     
+    h2{
+        margin-top: 250px;
+    }
+    
     h6{
         margin: -40px auto 0;
         font-size: 15px;
@@ -547,11 +552,8 @@ img {
     
     #intro img {
         margin: 44px auto;
-        max-width: 700px;
-        max-height: 350px;
-        border: 6px double gray;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        width: 100%;
+        max-height: 550px;
     }
     
     .menu {
@@ -561,19 +563,7 @@ img {
     
     #menu{
         border-radius: 20px;
-    }
-    
-    #reservation {
-        color: #FF2700;
-        padding: 10px 25px;
-        background: repeating-linear-gradient(to top, #500, #900, red 100%);
-        width: 100px;
-        border-radius: 30px;
-        font-family: 'federant';
-        text-decoration: none;
-        border: .5px solid #600;
-        box-shadow: 2px 4px 8px #700;
-        margin: 5px 80px;
+        border: 7px double gray;
     }
     
     textarea,
@@ -728,8 +718,8 @@ img {
     
     .navicon {
         margin: 20px 30px 0px 0px;
-        width: 48px;
-        height: 36px;
+        width: 40px;
+        height: 32px;
     }
     
     #stage {
@@ -782,10 +772,10 @@ img {
     }
     
     nav {
-        margin: 11px auto;
+        margin: 11px auto 25px;
         padding: 10px 12px;
         height: 95px;
-        border-bottom: 3px double #FF2700;
+        
     }
     
     h4 {
@@ -794,13 +784,6 @@ img {
         width: 100px;
         margin: -10px auto;
         border-radius: 11px;
-    }
-    
-    #mobilemenu h5{
-        width: 280px;
-        color: olive;
-        font-size: 18px;
-        text-shadow: .5px .5px 0 black, -.5px -.5px 0 black, .5px -.5px 0 black, -.5px .5px 0 black, .5px .5px 0 black;
     }
     
     h6{
@@ -814,36 +797,23 @@ img {
         font-size: 32px;
         padding: 28px 30px 28px 22px;
     }
-    #mobilemenu {
-        max-width: 90%;
-        padding-top: 35px;
-    }
+    
     .navicon {
         width: 35px;
         height: 28px;
         margin: -25px 5px 0px 0px;
     }
+    
     #rotate {
         width: 50px;
         float: left;
     }
+    
     #number {
         width: 150px;
         margin: auto;
     }
-    #reservation {
-        color: #ffeecc;
-        padding: 7px 18px;
-        background: repeating-linear-gradient(to top, #500, #900, red 100%);
-        width: 150px;
-        border-radius: 30px;
-        font-family: 'federant';
-        text-decoration: none;
-        border: .5px solid #600;
-        box-shadow: 2px 4px 8px #700;
-        margin: 0px 100px;
-        font-size: 15px;
-    }
+    
     #map {
         width: 286px;
         height: 148px;
@@ -857,31 +827,28 @@ img {
         border-radius: 8px;
     }
     #stage {
+        width: 100%;
         margin: 2px 0px;
     }
     #intro {
         margin: 10px auto;
-        height: 200px;
-        max-width: 315px;
+        height: 300px;
+        width: 100%;
     }
     h1 {
         font-family: 'Redressed';
         line-height: 22px;
         letter-spacing: -.5px;
-        font-size: 15px;
-        margin: 25px auto 0px;
-        border-top-right-radius: 17px;
-        border-top-left-radius: 17px;
-        border: 3px double gray;
+        font-size: 20px;
+        margin: -20px auto;
     }
+    
     #intro img {
-        margin: 25px auto 0;
-        max-width: 315px;
-        height: 180px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border: 3px double gray;
+        margin: 25px auto;
+        width: 100%;
+        height: 300px;
     }
+    
     #logo {
         font-size: 12px;
         color: #800;
@@ -891,27 +858,37 @@ img {
         margin: auto;
         text-align: center;
     }
+    
     #logo img {
         max-width: 185px;
         margin: auto;
     }
+    
     #menumade {
         padding: 10px 0;
         width: 50px;
     }
+    
     #map {
         margin: 30px auto 40px;
     }
+    
     h2 {
         font-size: 24px;
         color: #FF2700;
         text-align: center;
         text-shadow: -1px -1px 0 #040, 1px 1px 0 #fff;
+        margin-top: 50px;
     }
+    
     #menu {
         width: 95%;
-        margin: 10px auto 15px;
-        border-radius: 20px;
+        border-radius: 15px;
+        border: 5px double gray;
+    }
+    
+    .menu{
+        margin-bottom: 50px;
     }
     
     
@@ -930,6 +907,7 @@ img {
         font-family: serif;
         text-align: center;
     }
+    
     .sociallink img {
         width: 25px;
         margin: 0px 10px;
@@ -940,27 +918,10 @@ img {
         filter: drop-shadow(1px 1px 1px #fff);
     }
     
-    #hours {
-        margin-top: 10px;
-    }
-    #hours h2 {
-        margin-bottom: 5px;
-    }
-    #hours h3 {
-        margin-top: 0px;
-    }
-    #location img {
-        width: 30px;
-    }
-    #reservations h2 {
-        margin: 15px;
-    }
-    #reservations h3 {
-        margin: 15px;
-    }
     #location h2 {
         margin: 10px;
     }
+    
     #location h3 {
         margin: 0px;
     }
@@ -1101,15 +1062,15 @@ img {
         margin: 15px auto;
         padding: 30px 20px;
         border-radius: 15px;
-        background: url(SkylineSLIDE.png);
+        background: url(BlackWood.png);
         background-size: 100% 130%;
-        border: #807e31 double 3px;
+        border: #ff2700 double 3px;
         max-width: 100%;
-        max-height: calc(100vh - 6rem);
+        max-height: calc(100vh - 3rem);
         overflow-y: auto;
     }
     .close {
-        right: 5px;
+        right: 10px;
         top: 5px;
     }
 }
@@ -1158,6 +1119,7 @@ img {
         text-decoration: none;
         transition: 1s;
         background: #222;
+        background-size: 150%;
         border: 1px solid #f00;
         font-weight: bolder;
     }
@@ -1176,9 +1138,8 @@ img {
     }
     #intro img {
         margin: 56px auto;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
-        border: 10px double gray;
+        width: 100%;
+        height: 750px;
     }
     
     #info {
@@ -1186,7 +1147,8 @@ img {
     }
     
     #stage {
-        margin: 18px 0;
+        width: 100%;
+        
     }
 
     #hours {
@@ -1219,11 +1181,15 @@ img {
     #number {
         margin-top: 30px;
     }
+    
     h1 {
         font-family: 'Redressed';
         font-size: 38px;
-        border: 10px double gray;
         margin-top: 35px; 
+    }
+    
+    h2{
+        margin-top: 250px;
     }
     
     p {
@@ -1370,7 +1336,7 @@ img {
     
     .menu{
         width: 85%;
-        margin: auto;
+        margin: 50px auto;
     }
     
     #menu{
@@ -1403,28 +1369,26 @@ img {
     }
     
     #stage {
-        max-width: 1000px;
+        width: 100%;
         margin: 18px 0;
     }
     
     h1 {
         font-family: 'Redressed';
-        border: 10px double gray;
         font-size: 32px;
     }
     
     #stage img {
-        max-width: 900px;
+        width: 100%;
         height: 600px;
         margin: auto;
     }
     #intro {
-        max-width: 900px;
+        width: 100%;
         height: 600px;
     }
     #intro img {
         margin: 50px auto;
-        border: 8px double gray;
         height: 500px;
     }
     .close {
