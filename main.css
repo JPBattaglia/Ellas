@@ -1092,41 +1092,44 @@ img {
         display: none;
     }
     
-    .desknav{
+    .desktop{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background: url(BurntPlank.png) no-repeat;
+        position: fixed;
+        margin: -10px 650px 50px;
         z-index: 999999;
-        float: right;
+    }
+    
+    .desknav{
         font-size: 20px;
-        margin: 50px;
+        margin: 60px 30px;
     }
 
     
     .desktop a{
+        height: 35px;
         font-family: 'Quintessential';
         font-weight: bolder;
         font-size: 22px;
         text-transform: uppercase;
         transition: 1s;
-        margin: 20px;
+        margin: 55px -25px 0 20px;
         text-decoration: none;
         padding: 0px 25px;
-        border: 1px solid #FF7000;
-        border-radius: 14px; 
         color: #fff;
         transition: 1s;
         text-shadow:  -1px 1px 0px #000, 1px -1px 0px #000;
-        background: repeating-linear-gradient(to top, #f00, #F00, #FF7000, #ff0 100%);
     }
 
     .desktop a:hover{
         text-shadow: 2px 2px 2px #FF2700, -2px -2px 2px #FF2700, -2px 2px 2px #FF2700, 2px -2px 2px #FF2700;
-        box-shadow: 2px 6px 10px #FF2700,
-            -2px -6px 10px #FF2700;
         color: #fff;
         text-decoration: none;
         transition: 1s;
         background: #222;
         background-size: 150%;
-        border: 1px solid #f00;
         font-weight: bolder;
     }
     
@@ -1151,6 +1154,12 @@ img {
     
     #info {
         display: flex;
+    }
+    
+    .logo{
+        position: fixed;
+        left: 0;
+        z-index: 9999999;
     }
     
     #stage {
@@ -1362,6 +1371,10 @@ img {
         font-weight: bolder;
         color: #fff;
     }
+    
+    .modalDialog{
+        z-index: 999999999;
+    }
 }
 
 /*=======================================*/
@@ -1372,9 +1385,13 @@ img {
 @media (max-width: 1200px) and (min-width: 1000px) {
     
     .desktop a{
-        margin: 20px;
-        padding: 0px 25px;
+        margin: 20px 25px;
+        padding: 0px 0px;
         font-size: 20px;
+    }
+    
+    .desktop{
+        margin: 0 450px;
     }
     
     #stage {
