@@ -303,6 +303,7 @@ nav {
 
 nav img {
     float: left;
+    filter: drop-shadow(4px 1px 2px #444);
 }
 
 nav p {
@@ -670,7 +671,7 @@ img {
     
     #form {
         text-align: center;
-        background: url(BlackWood.png);
+        background: url(Charred.jpg);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
@@ -754,13 +755,13 @@ img {
     }
     
     .animated {
-        background: url(Charred.jpg);
+        background: url(EmbersGif.gif);
         background-size: cover;
         background-position: center top;
     }
     
     .logo {
-        max-width: 65px;
+        max-width: 70px;
         margin: 0;
     }
     
@@ -926,7 +927,7 @@ img {
     
     #form {
         text-align: center;
-        background: url(BlackWood.png);
+        background: url(Charred.jpg);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
@@ -1090,8 +1091,8 @@ img {
         height: 150px;
         background: url(BurntPlank.png) no-repeat;
         filter: drop-shadow(2px 2px 5px #ff2700);
+        margin: 0px 550px 50px;
         position: fixed;
-        margin: -10px 650px 50px;
         z-index: 999999;
     }
     
@@ -1121,8 +1122,6 @@ img {
         color: #fff;
         text-decoration: none;
         transition: 1s;
-        background: #222;
-        background-size: 150%;
         font-weight: bolder;
     }
     
@@ -1321,7 +1320,7 @@ img {
     #form {
         width: 70%;
         text-align: center;
-        background: url(BlackWood.png);
+        background: url(Charred.jpg);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
@@ -1377,6 +1376,10 @@ img {
     
     .desktop{
         margin: 0 450px;
+    }
+    
+    .desknav{
+        margin-left: 50px;
     }
     
     #stage {
