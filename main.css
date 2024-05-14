@@ -93,7 +93,7 @@ html {
 }
 
 .animated {
-    background: url(Charred.jpg);
+    background: url(EmbersGif.gif);
     background-size: 100% 100%;
     background-position: left top;
     margin-bottom: 30px;
@@ -1089,6 +1089,7 @@ img {
         width: 100%;
         height: 150px;
         background: url(BurntPlank.png) no-repeat;
+        filter: drop-shadow(2px 2px 5px #ff2700);
         position: fixed;
         margin: -10px 650px 50px;
         z-index: 999999;
