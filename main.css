@@ -668,17 +668,9 @@ img {
         margin-top: 100px;
     }
     
-    /* Add a background color and some padding around the form */
-    .container {
-        background: url(Vines.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin: auto;
-    }
-    
     #form {
         text-align: center;
-        background: url(Charred.jpg);
+        background: url(BlackWood.png);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
@@ -762,7 +754,7 @@ img {
     }
     
     .animated {
-        background: url(EmbersGif.gif);
+        background: url(Charred.jpg);
         background-size: cover;
         background-position: center top;
     }
@@ -934,7 +926,7 @@ img {
     
     #form {
         text-align: center;
-        background: url(Charred.jpg);
+        background: url(BlackWood.png);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
@@ -1324,19 +1316,11 @@ img {
     #fname {
         margin-top: 100px;
     }
-    /* Add a background color and some padding around the form */
-    .container {
-        background: url(Vines.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 950px;
-        max-width: 100%;
-        margin: auto;
-    }
+
     #form {
         width: 70%;
         text-align: center;
-        background: url(Charred.jpg);
+        background: url(BlackWood.png);
         background-size: 100% 100%;
         border: 1px solid gray;
         border-radius: 20px;
