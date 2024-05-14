@@ -554,6 +554,7 @@ img {
         margin: 44px auto;
         width: 100%;
         max-height: 550px;
+        border-bottom: 1px solid gray;
     }
     
     .menu {
@@ -830,6 +831,11 @@ img {
         width: 100%;
         margin: 2px 0px;
     }
+    
+    #stage img{
+        border-bottom: 1px solid gray;
+    }
+    
     #intro {
         margin: 10px auto;
         height: 300px;
@@ -1097,14 +1103,14 @@ img {
     .desktop a{
         font-family: 'Quintessential';
         font-weight: bolder;
-        font-size: 24px;
+        font-size: 22px;
         text-transform: uppercase;
         transition: 1s;
         margin: 20px;
         text-decoration: none;
-        padding: 4px 25px;
+        padding: 0px 25px;
         border: 1px solid #FF7000;
-        border-radius: 25px; 
+        border-radius: 14px; 
         color: #fff;
         transition: 1s;
         text-shadow:  -1px 1px 0px #000, 1px -1px 0px #000;
@@ -1140,6 +1146,7 @@ img {
         margin: 56px auto;
         width: 100%;
         height: 750px;
+        border-bottom: 1px solid gray;
     }
     
     #info {
@@ -1365,7 +1372,9 @@ img {
 @media (max-width: 1200px) and (min-width: 1000px) {
     
     .desktop a{
-        margin: 10px;
+        margin: 20px;
+        padding: 0px 25px;
+        font-size: 20px;
     }
     
     #stage {
