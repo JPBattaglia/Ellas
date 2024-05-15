@@ -479,7 +479,6 @@ img {
     .logo {
         left: 10px;
         max-width: 75px;
-        position: fixed;
     }
     
     #togo {
@@ -704,7 +703,6 @@ img {
     .logo {
         width: 75px;
         margin: 10px 0 0 20px;
-        position: fixed;
     }
     
     nav {
@@ -841,7 +839,7 @@ img {
         font-family: 'Redressed';
         line-height: 22px;
         letter-spacing: -.5px;
-        font-size: 20px;
+        font-size: 18px;
         margin: -20px auto;
     }
     
