@@ -293,6 +293,7 @@ p {
 }
 
 nav {
+    position: relative;
     margin: 22px auto;
     margin-bottom: 20px;
     width: 97.2%;
@@ -300,6 +301,19 @@ nav {
     height: 135px;
     text-align: center;
 }
+
+nav::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 175px;
+  opacity: 0.3;
+  background: black;
+  z-index: 9;
+}
+
 
 nav img {
     float: left;
@@ -459,6 +473,10 @@ img {
 
 @media (max-width: 1000px) and (min-width: 701px) {
     
+    nav::before{
+        display: none;
+    }
+    
     .desktop{
         display: none;
     }
@@ -478,11 +496,12 @@ img {
     
     .logo {
         left: 10px;
-        max-width: 75px;
+        width: 85px;
+        position: absolute;
     }
     
     #togo {
-        margin: 20px 0;
+        margin: 10px 0;
     }
     
     p {
@@ -537,7 +556,7 @@ img {
         padding: 8px 10px;
         width: 120px;
         position: absolute;
-        top: 25px;
+        top: 10px;
         left: 43%;
         border-radius: 20px;
     }
@@ -747,6 +766,10 @@ img {
 
 @media (max-width: 700px) {
     
+    nav::before{
+        display: none;
+    }
+    
     .desktop{
         display: none;
     }
@@ -764,13 +787,14 @@ img {
     .logo {
         max-width: 70px;
         left: -20px;
+        position: absolute;
+        z-index: 99;
     }
     
     nav {
         margin: 11px auto 25px;
         padding: 10px 12px;
-        height: 95px;
-        
+        height: 95px;     
     }
     
     h4 {
@@ -797,6 +821,11 @@ img {
         width: 35px;
         height: 28px;
         margin: -25px 5px 0px 0px;
+        z-index: 999999999999999999;
+    }
+    
+    .navicon img{
+        z-index: 999999999999999999;
     }
     
     #rotate {
