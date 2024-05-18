@@ -473,11 +473,7 @@ img {
 
 @media (max-width: 1000px) and (min-width: 701px) {
     
-    nav::before{
-        display: none;
-    }
-    
-    .desktop{
+    .desktop, nav::before{
         display: none;
     }
     
@@ -836,11 +832,9 @@ img {
         width: 35px;
         height: 28px;
         margin: -25px 5px 0px 0px;
-        z-index: 999999999999999999;
     }
     
     .navicon img{
-        z-index: 999999999999999999;
     }
     
     #rotate {
@@ -940,9 +934,11 @@ img {
         font-size: 20px;
         width: 150px;
     }
+    
     h5 {
         font-size: 22px;
     }
+    
     p {
         color: #fff;
         font-size: 12px;
@@ -1125,6 +1121,7 @@ img {
         max-height: calc(100vh - 3rem);
         overflow-y: auto;
     }
+    
     .close {
         right: 10px;
         top: 5px;
@@ -1283,6 +1280,7 @@ img {
         max-width: 75%;
         margin: 20px auto;
     }
+    
     textarea,
     input {
         font-family: 'federant', serif;
@@ -1376,6 +1374,11 @@ img {
     }
     #fname {
         margin-top: 100px;
+    }
+    
+    #form, .menu{
+        position: relative;
+        z-index: 99999999;
     }
 
     #form {
