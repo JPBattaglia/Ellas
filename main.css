@@ -304,7 +304,6 @@ nav {
 
 nav::before {
   content: "";
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -355,7 +354,6 @@ nav p {
     -webkit-transition: width 2s, height 2s, -webkit-transform 1.5s;
     /* Safari */
     transition: width 2s, height 2s, transform 1.5s;
-    position: fixed;
 }
 
 .logo:hover {
@@ -1149,9 +1147,7 @@ img {
         width: 100%;
         background: url(BurntPlank.png) no-repeat;
         filter: drop-shadow(2px 2px 5px #ff2700);
-        margin: -16px 550px 50px;
-        position: fixed;
-        z-index: 999999;
+        margin: 0px 550px 50px;
     }
     
     .desknav{
@@ -1207,10 +1203,11 @@ img {
     }
     
     .logo{
+        width: 150px;
         position: fixed;
         left: 0;
         z-index: 9999999;
-        margin-top: -5px;
+        margin: 0px 5px;
     }
     
     #stage {
@@ -1451,23 +1448,24 @@ img {
         height: 165px;
     }
     
-    .logo{
-        position: fixed;
-        margin-top: -12px;
-    }
-    
     .desktop a{
-        margin: 20px 25px;
+        margin: 20px 30px;
         padding: 0px 0px;
         font-size: 20px;
     }
     
     .desktop{
-        margin: -20px 450px;
+        margin: 10px 350px;
     }
     
-    .desknav{
+    .desknav{1
         margin-left: 50px;
+    }
+    
+    .logo{
+        width: 130px;
+        margin: 10px 25px;
+        
     }
     
     #stage {
