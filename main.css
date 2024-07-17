@@ -865,7 +865,7 @@ img {
     }
     
     #stage img{
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #000;
     }
     
     #intro {
@@ -879,6 +879,7 @@ img {
         letter-spacing: -.5px;
         font-size: 18px;
         margin: -20px auto;
+        border-top: 1px solid #000;
     }
     
     #intro img {
